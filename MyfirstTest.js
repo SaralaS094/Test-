@@ -1,14 +1,13 @@
 console.log("Hello User !!!");
 function sum(a,b){
   
-  return a+b;
-  
+   return a+b;
 }
-var c = sum(10,5);
-console.log(c);
+sum(10,5);
+console.log(sum);
 
 function sub(a,b){
-  return a-b;
+   return a-b;
 }
-var d = sub(5,10);
-console.log(d);
+var d = sub(10,5);
+console.log(d)

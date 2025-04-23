@@ -1,0 +1,13 @@
+<usereventscript scriptid="customscript_setmemo_po">
+      <name>User Event Example</name>
+      <notifyowner>T</notifyowner>
+      <scriptfile>[/SuiteScripts/UserEvents/PurchaseOrder/setMemo.js]</scriptfile>
+      <scriptdeployments>
+         <scriptdeployment scriptid="customdeploy_setmemo_po">
+            <isdeployed>T</isdeployed>
+            <loglevel>DEBUG</loglevel>
+            <recordtype>PURCHASEORDER</recordtype>
+            <status>TESTING</status>
+         </scriptdeployment>
+        </scriptdeployments> 
+</usereventscript>

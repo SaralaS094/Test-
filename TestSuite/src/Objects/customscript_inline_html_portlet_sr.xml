@@ -1,0 +1,25 @@
+<portlet scriptid="customscript_inline_html_portlet_sr">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Inline Html Example</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <portlettype>HTML</portlettype>
+  <scriptfile>[/SuiteScripts/inline_html_portlet_example.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_inline_html_portlet_sr">
+      <allemployees>T</allemployees>
+      <allpartners>T</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <dashboardapp>F</dashboardapp>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <runasrole></runasrole>
+      <status>RELEASED</status>
+      <title>Inline Html Example</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</portlet>

@@ -1,0 +1,37 @@
+<scheduledscript scriptid="customscript_po_scheduled_task_sr">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>PO Scheduled Task of Mail and Phone</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/PO_Scheduled_Task.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy2">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>PO Scheduled Task of Mail and Phone 2</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2025-01-28</startdate>
+          <starttime>12:30:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy_po_scheduled_task_sr">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>PO Scheduled Task of Mail and Phone</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2025-01-28</startdate>
+          <starttime>12:30:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

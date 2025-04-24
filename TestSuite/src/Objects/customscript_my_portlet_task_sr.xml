@@ -1,0 +1,25 @@
+<portlet scriptid="customscript_my_portlet_task_sr">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>My Portlet Sample Task</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <portlettype>HTML</portlettype>
+  <scriptfile>[/SuiteScripts/My_Portlet_task.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_my_portlet_task_sr">
+      <allemployees>T</allemployees>
+      <allpartners>T</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <dashboardapp>F</dashboardapp>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <runasrole></runasrole>
+      <status>RELEASED</status>
+      <title>My Portlet Sample Task</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</portlet>

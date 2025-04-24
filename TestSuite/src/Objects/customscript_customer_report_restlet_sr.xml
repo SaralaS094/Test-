@@ -1,0 +1,22 @@
+<restlet scriptid="customscript_customer_report_restlet_sr">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Customer Report Restlet</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/getDataCustomerRestlet.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_customer_report_restlet_sr">
+      <allemployees>T</allemployees>
+      <allpartners>T</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>TESTING</status>
+      <title>Customer Report Restlet</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</restlet>

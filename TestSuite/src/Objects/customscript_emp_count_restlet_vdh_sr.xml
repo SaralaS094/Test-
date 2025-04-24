@@ -1,0 +1,22 @@
+<restlet scriptid="customscript_emp_count_restlet_vdh_sr">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Employee Count Report Restlet Vdh</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Employee_Report_Restlet_vdh.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_emp_count_restlet_vdh_sr">
+      <allemployees>T</allemployees>
+      <allpartners>T</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>TESTING</status>
+      <title>Employee Count Report Restlet Vdh</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</restlet>

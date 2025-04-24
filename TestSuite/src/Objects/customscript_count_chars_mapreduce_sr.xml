@@ -1,0 +1,29 @@
+<mapreducescript scriptid="customscript_count_chars_mapreduce_sr">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Count Characters Map and Reduce Task</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/count_characters.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_count_chars_mapreduce_sr">
+      <buffersize>1</buffersize>
+      <concurrencylimit>1</concurrencylimit>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <queueallstagesatonce>T</queueallstagesatonce>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>NOTSCHEDULED</status>
+      <title>Count Characters Map and Reduce Task</title>
+      <yieldaftermins>60</yieldaftermins>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2024-12-25</startdate>
+          <starttime>12:30:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</mapreducescript>

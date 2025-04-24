@@ -1,0 +1,10 @@
+<restlet scriptid="customscript_cust_tran_report_restlet_sr">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Customer Trans Report</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/customerReportRestlet.js]</scriptfile>
+</restlet>

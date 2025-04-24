@@ -1,0 +1,22 @@
+<restlet scriptid="customscript_restlet_sample_demo_sr">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>RESTlet Sample Demo Sr</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/restlet_sample_demo.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_restlet_sample_demo_sr">
+      <allemployees>T</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>RELEASED</status>
+      <title>RESTlet Sample Demo Sr</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</restlet>
